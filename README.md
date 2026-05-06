@@ -136,14 +136,10 @@ void loop() {
 
 ```
 
-## Setting Up QGroundControl
+## Documentation
 
-- Define the __Communication Link__: e.g. UDP. The IP address is displayed when you start the sketch
-- In General (Settings) in the Fly Vue Section activate the __Visual Joystick__
-- If you click on the 'Airplane' icon you can see and use the __joysticks__
-- Click on __Arm__ and confirm
-
-and now you are __ready to fly__!
+- [Wiki](wiki/Setting-Up-QGroundControl)
+- [Class Documentation](https://pschatzmann.github.io/ArduinoMavlink/namespaces.html)
 
 ## Installation
 You can download this project as a ZIP and in the Arduino IDE use -> Sketch -> Include Library -> Add ZIP Library.
