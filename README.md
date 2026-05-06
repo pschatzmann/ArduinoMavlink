@@ -138,8 +138,8 @@ void loop() {
 
 ## Documentation
 
-- [Wiki](wiki)
 - [Class Documentation](https://pschatzmann.github.io/ArduinoMavlink/namespaces.html)
+- [Wiki](https://github.com/pschatzmann/ArduinoMavlink/wiki)
 
 ## Installation
 You can download this project as a ZIP and in the Arduino IDE use -> Sketch -> Include Library -> Add ZIP Library.
