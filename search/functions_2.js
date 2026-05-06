@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['begin_0',['begin',['../classmavlink__controller_1_1MavlinkLoggerClass.html#ae3a7ba280f00aa06d00e2418a8af453f',1,'mavlink_controller::MavlinkLoggerClass']]]
+  ['begin_0',['begin',['../classmavlink__controller_1_1MavlinkLoggerClass.html#a4c1887a2adc55e53dc2d270eb8987ac7',1,'mavlink_controller::MavlinkLoggerClass']]]
 ];

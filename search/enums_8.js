@@ -73,7 +73,8 @@ var searchData=
   ['mavlink_5fmessage_5ftype_5ft_70',['mavlink_message_type_t',['../mavlink__types_8h.html#ab6045b7adc25bdc05a5011a91dc645a4',1,'mavlink_types.h']]],
   ['mavlink_5fparse_5fstate_5ft_71',['mavlink_parse_state_t',['../mavlink__types_8h.html#a4eeb14ddb07e997fe1d671d6823e35a1',1,'mavlink_types.h']]],
   ['mavlink_5fsigning_5fstatus_5ft_72',['mavlink_signing_status_t',['../mavlink__types_8h.html#a48f1a83cc910fb049a6a2d9b974c9f53',1,'mavlink_types.h']]],
-  ['mission_5fstate_73',['MISSION_STATE',['../common_8h.html#a05dbcb4a474ec13ed60e40ce8f3ea243',1,'common.h']]],
-  ['motor_5ftest_5forder_74',['MOTOR_TEST_ORDER',['../common_8h.html#a77bea4bd9c8d03cfebb2c9e047e64600',1,'common.h']]],
-  ['motor_5ftest_5fthrottle_5ftype_75',['MOTOR_TEST_THROTTLE_TYPE',['../common_8h.html#aa7f79695250fdfee919206766d2c4174',1,'common.h']]]
+  ['mavlinkloglevel_73',['MavlinkLogLevel',['../namespacemavlink__controller.html#a9b1ac3d37877bf77e58dd32a1365d875',1,'mavlink_controller']]],
+  ['mission_5fstate_74',['MISSION_STATE',['../common_8h.html#a05dbcb4a474ec13ed60e40ce8f3ea243',1,'common.h']]],
+  ['motor_5ftest_5forder_75',['MOTOR_TEST_ORDER',['../common_8h.html#a77bea4bd9c8d03cfebb2c9e047e64600',1,'common.h']]],
+  ['motor_5ftest_5fthrottle_5ftype_76',['MOTOR_TEST_THROTTLE_TYPE',['../common_8h.html#aa7f79695250fdfee919206766d2c4174',1,'common.h']]]
 ];

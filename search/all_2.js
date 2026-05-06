@@ -13,7 +13,7 @@ var searchData=
   ['battery_5ffunction_10',['battery_function',['../struct____mavlink__battery__info__t.html#a65d59e2834588799e9cb69c3b6ff7c9f',1,'__mavlink_battery_info_t']]],
   ['battery_5fremaining_11',['battery_remaining',['../struct____mavlink__high__latency__t.html#a7b1d333bb008e732be85ad5c820f5ac6',1,'__mavlink_high_latency_t']]],
   ['baudrate_12',['baudrate',['../struct____mavlink__serial__control__t.html#ac4f06ea26ed6bd7ae83b92d64ac10b78',1,'__mavlink_serial_control_t']]],
-  ['begin_13',['begin',['../classmavlink__controller_1_1MavlinkLoggerClass.html#ae3a7ba280f00aa06d00e2418a8af453f',1,'mavlink_controller::MavlinkLoggerClass']]],
+  ['begin_13',['begin',['../classmavlink__controller_1_1MavlinkLoggerClass.html#a4c1887a2adc55e53dc2d270eb8987ac7',1,'mavlink_controller::MavlinkLoggerClass']]],
   ['bitrate_14',['bitrate',['../struct____mavlink__video__stream__status__t.html#a32678c62007e0748dae550bd1007a07d',1,'__mavlink_video_stream_status_t::bitrate()'],['../struct____mavlink__video__stream__information__t.html#a32678c62007e0748dae550bd1007a07d',1,'__mavlink_video_stream_information_t::bitrate()']]],
   ['board_5fversion_15',['board_version',['../struct____mavlink__autopilot__version__t.html#a122ec4f129cffbbe102d7cce98b1c487',1,'__mavlink_autopilot_version_t']]],
   ['body_5fpitch_5frate_16',['body_pitch_rate',['../struct____mavlink__attitude__target__t.html#a26579058cd88ca26b1ce0a7ecac26533',1,'__mavlink_attitude_target_t']]],

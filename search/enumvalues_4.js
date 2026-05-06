@@ -2,7 +2,7 @@ var searchData=
 [
   ['engine_5fcontrol_5foptions_5fallow_5fstart_5fwhile_5fdisarmed_0',['ENGINE_CONTROL_OPTIONS_ALLOW_START_WHILE_DISARMED',['../common_8h.html#aa35a91dc433a5bdee97443adf5ddc66fa7c20424fc4b4eed9817a5131a68ba305',1,'common.h']]],
   ['engine_5fcontrol_5foptions_5fenum_5fend_1',['ENGINE_CONTROL_OPTIONS_ENUM_END',['../common_8h.html#aa35a91dc433a5bdee97443adf5ddc66fab016a4304eab75d64571299d07b19ba2',1,'common.h']]],
-  ['error_2',['ERROR',['../classmavlink__controller_1_1MavlinkLoggerClass.html#a221b779e6bb7b8d40677d7642bfefac5a2fd6f336d08340583bd620a7f5694c90',1,'mavlink_controller::MavlinkLoggerClass']]],
+  ['error_2',['ERROR',['../namespacemavlink__controller.html#a9b1ac3d37877bf77e58dd32a1365d875a2fd6f336d08340583bd620a7f5694c90',1,'mavlink_controller']]],
   ['esc_5fconnection_5ftype_5fcan_3',['ESC_CONNECTION_TYPE_CAN',['../common_8h.html#a71c6d2f98065c4648bcbcdd9ecf8120cae63b7dac6554eda5474a67fac74f1360',1,'common.h']]],
   ['esc_5fconnection_5ftype_5fdshot_4',['ESC_CONNECTION_TYPE_DSHOT',['../common_8h.html#a71c6d2f98065c4648bcbcdd9ecf8120ca5f724f21b16e909482ecf71ffb61a040',1,'common.h']]],
   ['esc_5fconnection_5ftype_5fenum_5fend_5',['ESC_CONNECTION_TYPE_ENUM_END',['../common_8h.html#a71c6d2f98065c4648bcbcdd9ecf8120ca10365c3c55e9f54208cc882024d6d1b7',1,'common.h']]],

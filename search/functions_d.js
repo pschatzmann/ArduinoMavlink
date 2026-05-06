@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['setlevel_0',['setLevel',['../classmavlink__controller_1_1MavlinkLoggerClass.html#af90908a5ca1892e4306fcdb01dabc0b9',1,'mavlink_controller::MavlinkLoggerClass']]],
+  ['setlevel_0',['setLevel',['../classmavlink__controller_1_1MavlinkLoggerClass.html#afae47fde9a1521b5702f3088fa5972a0',1,'mavlink_controller::MavlinkLoggerClass']]],
   ['setmessagecallback_1',['setMessageCallback',['../classmavlink__controller_1_1MavlinkController.html#a255ca8682452453c06c57f7089cd0d0c',1,'mavlink_controller::MavlinkController']]],
   ['setoutput_2',['setOutput',['../classmavlink__controller_1_1MavlinkLoggerClass.html#a554beb06cdd03890a0fb853c469c2e12',1,'mavlink_controller::MavlinkLoggerClass']]],
   ['setsystemid_3',['setSystemId',['../classmavlink__controller_1_1MavlinkController.html#a8176542b9bddcbe5abe263c183aefb36',1,'mavlink_controller::MavlinkController']]],

@@ -8,5 +8,5 @@ var searchData=
   ['illuminator_5fmode_5fexternal_5fsync_5',['ILLUMINATOR_MODE_EXTERNAL_SYNC',['../common_8h.html#a00b3948102aa8892a5be40142b1d9aa4aeb1dea293926edbd0ae3606dd0aac968',1,'common.h']]],
   ['illuminator_5fmode_5finternal_5fcontrol_6',['ILLUMINATOR_MODE_INTERNAL_CONTROL',['../common_8h.html#a00b3948102aa8892a5be40142b1d9aa4a13d869a350ede76a24aa1d9fb706879c',1,'common.h']]],
   ['illuminator_5fmode_5funknown_7',['ILLUMINATOR_MODE_UNKNOWN',['../common_8h.html#a00b3948102aa8892a5be40142b1d9aa4a152af93538350d8b868c90b08d15afe9',1,'common.h']]],
-  ['info_8',['INFO',['../classmavlink__controller_1_1MavlinkLoggerClass.html#a221b779e6bb7b8d40677d7642bfefac5a748005382152808a72b1a9177d9dc806',1,'mavlink_controller::MavlinkLoggerClass']]]
+  ['info_8',['INFO',['../namespacemavlink__controller.html#a9b1ac3d37877bf77e58dd32a1365d875a748005382152808a72b1a9177d9dc806',1,'mavlink_controller']]]
 ];

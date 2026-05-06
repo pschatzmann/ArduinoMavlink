@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['warn_0',['WARN',['../classmavlink__controller_1_1MavlinkLoggerClass.html#a221b779e6bb7b8d40677d7642bfefac5a74dac7ac23d5b810db6d4067f14e8676',1,'mavlink_controller::MavlinkLoggerClass']]],
+  ['warn_0',['WARN',['../namespacemavlink__controller.html#a9b1ac3d37877bf77e58dd32a1365d875a74dac7ac23d5b810db6d4067f14e8676',1,'mavlink_controller']]],
   ['wifi_5fconfig_5fap_5fmode_5fap_1',['WIFI_CONFIG_AP_MODE_AP',['../common_8h.html#a88f72477d26d33f25aff3ac03f1a0b66a9b24f2c83cee95dab6a8c0c70582ef9f',1,'common.h']]],
   ['wifi_5fconfig_5fap_5fmode_5fdisabled_2',['WIFI_CONFIG_AP_MODE_DISABLED',['../common_8h.html#a88f72477d26d33f25aff3ac03f1a0b66aa660a2daea0e6d08a31f89108d3c0650',1,'common.h']]],
   ['wifi_5fconfig_5fap_5fmode_5fenum_5fend_3',['WIFI_CONFIG_AP_MODE_ENUM_END',['../common_8h.html#a88f72477d26d33f25aff3ac03f1a0b66abef4c3fd9aaeb79d3b4df4aec0592864',1,'common.h']]],
