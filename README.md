@@ -138,7 +138,7 @@ void loop() {
 
 ## Documentation
 
-- [Wiki](wiki/Setting-Up-QGroundControl)
+- [Wiki](wiki)
 - [Class Documentation](https://pschatzmann.github.io/ArduinoMavlink/namespaces.html)
 
 ## Installation
