@@ -1,0 +1,6 @@
+<map id="__mavlink_signing" name="__mavlink_signing">
+<area shape="rect" id="node1" title=" " alt="" coords="5,93,148,119"/>
+<area shape="rect" id="node2" href="$struct____mavlink__status.html" title=" " alt="" coords="50,181,186,207"/>
+<area shape="rect" id="node3" href="$struct____mavlink__signing__streams.html" title=" " alt="" coords="222,93,425,119"/>
+<area shape="rect" id="node4" href="$struct____mavlink__signing__streams_1_1____mavlink__signing__stream.html" title=" " alt="" coords="225,5,421,31"/>
+</map>

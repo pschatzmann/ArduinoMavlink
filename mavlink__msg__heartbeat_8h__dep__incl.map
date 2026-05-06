@@ -1,0 +1,12 @@
+<map id="src/minimal/mavlink_msg_heartbeat.h" name="src/minimal/mavlink_msg_heartbeat.h">
+<area shape="rect" id="node1" title=" " alt="" coords="140,5,296,45"/>
+<area shape="rect" id="node2" href="$minimal_8h.html" title="MAVLink comm protocol generated from minimal.xml." alt="" coords="133,93,303,119"/>
+<area shape="rect" id="node3" href="$minimal_2mavlink_8h.html" title="MAVLink comm protocol built from minimal.xml." alt="" coords="37,167,205,192"/>
+<area shape="rect" id="node4" href="$standard_2standard_8h.html" title="MAVLink comm protocol generated from standard.xml." alt="" coords="229,167,404,192"/>
+<area shape="rect" id="node5" href="$common_8h.html" title="MAVLink comm protocol generated from common.xml." alt="" coords="131,240,305,265"/>
+<area shape="rect" id="node10" href="$standard_2mavlink_8h.html" title="MAVLink comm protocol built from standard.xml." alt="" coords="330,240,501,265"/>
+<area shape="rect" id="node6" href="$common_2mavlink_8h.html" title="MAVLink comm protocol built from common.xml." alt="" coords="34,313,205,339"/>
+<area shape="rect" id="node9" href="$common_2standard_8h.html" title="MAVLink comm protocol generated from standard.xml." alt="" coords="229,313,404,339"/>
+<area shape="rect" id="node7" href="$MavlinkController_8h.html" title=" " alt="" coords="5,387,233,412"/>
+<area shape="rect" id="node8" href="$Mavlink_8h.html" title=" " alt="" coords="65,460,174,485"/>
+</map>

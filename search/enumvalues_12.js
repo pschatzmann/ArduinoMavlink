@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['video_5fstream_5fencoding_5fenum_5fend_0',['VIDEO_STREAM_ENCODING_ENUM_END',['../common_8h.html#abda27fd9294dcee3dedf71acb45a61b5a62e6c36b1ae5283c0770a83d121df0c4',1,'common.h']]],
+  ['video_5fstream_5fencoding_5fh264_1',['VIDEO_STREAM_ENCODING_H264',['../common_8h.html#abda27fd9294dcee3dedf71acb45a61b5a0d9b9895810e508940e4cddee08db80d',1,'common.h']]],
+  ['video_5fstream_5fencoding_5fh265_2',['VIDEO_STREAM_ENCODING_H265',['../common_8h.html#abda27fd9294dcee3dedf71acb45a61b5a52bc0118479b1274667af97f39e0d601',1,'common.h']]],
+  ['video_5fstream_5fencoding_5funknown_3',['VIDEO_STREAM_ENCODING_UNKNOWN',['../common_8h.html#abda27fd9294dcee3dedf71acb45a61b5a5e05f4c5c3df626a855573c39073b50f',1,'common.h']]],
+  ['video_5fstream_5fstatus_5fflags_5fenum_5fend_4',['VIDEO_STREAM_STATUS_FLAGS_ENUM_END',['../common_8h.html#a406492ee9ee48fe8147d5290b8f1a2a4aa21a412e965c0fa5562e1bcb13d5246e',1,'common.h']]],
+  ['video_5fstream_5fstatus_5fflags_5frunning_5',['VIDEO_STREAM_STATUS_FLAGS_RUNNING',['../common_8h.html#a406492ee9ee48fe8147d5290b8f1a2a4acef90c5ffcf366fa2e819b3edf5d1b98',1,'common.h']]],
+  ['video_5fstream_5fstatus_5fflags_5fthermal_6',['VIDEO_STREAM_STATUS_FLAGS_THERMAL',['../common_8h.html#a406492ee9ee48fe8147d5290b8f1a2a4a78c845988dd6cd86f6ccf8846f892623',1,'common.h']]],
+  ['video_5fstream_5fstatus_5fflags_5fthermal_5frange_5fenabled_7',['VIDEO_STREAM_STATUS_FLAGS_THERMAL_RANGE_ENABLED',['../common_8h.html#a406492ee9ee48fe8147d5290b8f1a2a4a2382c1ffc697b92542d96db7c2b9629e',1,'common.h']]],
+  ['video_5fstream_5ftype_5fenum_5fend_8',['VIDEO_STREAM_TYPE_ENUM_END',['../common_8h.html#a3bc20286bf9af5c1d9b042e9af444060ac84851bc22eb6454f5c12c41c7106ea4',1,'common.h']]],
+  ['video_5fstream_5ftype_5fmpeg_5fts_9',['VIDEO_STREAM_TYPE_MPEG_TS',['../common_8h.html#a3bc20286bf9af5c1d9b042e9af444060a0a1b31a152810a236cd934cb219cb9fc',1,'common.h']]],
+  ['video_5fstream_5ftype_5frtpudp_10',['VIDEO_STREAM_TYPE_RTPUDP',['../common_8h.html#a3bc20286bf9af5c1d9b042e9af444060a6296095bea85fad2062f9343cb380535',1,'common.h']]],
+  ['video_5fstream_5ftype_5frtsp_11',['VIDEO_STREAM_TYPE_RTSP',['../common_8h.html#a3bc20286bf9af5c1d9b042e9af444060a3d97b0b475dfe5ac3e62db22277be1ed',1,'common.h']]],
+  ['video_5fstream_5ftype_5ftcp_5fmpeg_12',['VIDEO_STREAM_TYPE_TCP_MPEG',['../common_8h.html#a3bc20286bf9af5c1d9b042e9af444060a1de4e7e98e2eda4a5f50fda8053fa9b2',1,'common.h']]],
+  ['vtol_5ftransition_5fheading_5fany_13',['VTOL_TRANSITION_HEADING_ANY',['../common_8h.html#a454df568b0bf9c1adc8f6e0b099f4870a83e1a247de71853b004dfebbdea14692',1,'common.h']]],
+  ['vtol_5ftransition_5fheading_5fenum_5fend_14',['VTOL_TRANSITION_HEADING_ENUM_END',['../common_8h.html#a454df568b0bf9c1adc8f6e0b099f4870a312699839663e973205539ab8a93662e',1,'common.h']]],
+  ['vtol_5ftransition_5fheading_5fnext_5fwaypoint_15',['VTOL_TRANSITION_HEADING_NEXT_WAYPOINT',['../common_8h.html#a454df568b0bf9c1adc8f6e0b099f4870a064a5cc435506e74d54289ccfc1749ff',1,'common.h']]],
+  ['vtol_5ftransition_5fheading_5fspecified_16',['VTOL_TRANSITION_HEADING_SPECIFIED',['../common_8h.html#a454df568b0bf9c1adc8f6e0b099f4870aae170af4a3d26bc44943fc4d0e1532cb',1,'common.h']]],
+  ['vtol_5ftransition_5fheading_5ftakeoff_17',['VTOL_TRANSITION_HEADING_TAKEOFF',['../common_8h.html#a454df568b0bf9c1adc8f6e0b099f4870ab66db12d6e530219a755a6bd259c7ce8',1,'common.h']]],
+  ['vtol_5ftransition_5fheading_5fvehicle_5fdefault_18',['VTOL_TRANSITION_HEADING_VEHICLE_DEFAULT',['../common_8h.html#a454df568b0bf9c1adc8f6e0b099f4870a9d55dfd9b914605072f3b8d1861cef69',1,'common.h']]]
+];

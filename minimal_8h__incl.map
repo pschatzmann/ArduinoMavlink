@@ -1,0 +1,15 @@
+<map id="src/minimal/minimal.h" name="src/minimal/minimal.h">
+<area shape="rect" id="node1" title="MAVLink comm protocol generated from minimal.xml." alt="" coords="180,5,349,31"/>
+<area shape="rect" id="node2" href="$protocol_8h.html" title=" " alt="" coords="92,79,240,104"/>
+<area shape="rect" id="node13" href="$mavlink__msg__heartbeat_8h.html" title=" " alt="" coords="265,79,465,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,225,76,251"/>
+<area shape="rect" id="node4" href="$mavlink__types_8h.html" title=" " alt="" coords="101,225,231,251"/>
+<area shape="rect" id="node7" href="$mavlink__helpers_8h.html" title=" " alt="" coords="217,152,360,177"/>
+<area shape="rect" id="node5" title=" " alt="" coords="125,299,207,324"/>
+<area shape="rect" id="node6" title=" " alt="" coords="380,299,451,324"/>
+<area shape="rect" id="node8" href="$checksum_8h.html" title=" " alt="" coords="512,225,612,251"/>
+<area shape="rect" id="node9" href="$mavlink__conversions_8h.html" title=" " alt="" coords="636,225,808,251"/>
+<area shape="rect" id="node11" title=" " alt="" coords="255,225,322,251"/>
+<area shape="rect" id="node12" href="$mavlink__sha256_8h.html" title=" " alt="" coords="346,225,487,251"/>
+<area shape="rect" id="node10" title=" " alt="" coords="688,299,756,324"/>
+</map>

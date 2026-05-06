@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['rc_5fsub_5ftype_5fenum_5fend_0',['RC_SUB_TYPE_ENUM_END',['../common_8h.html#aaa55156948d1404db5bf58d3b40c7accaa813154d65d97af393aa8b4cef3f6149',1,'common.h']]],
+  ['rc_5fsub_5ftype_5fspektrum_5fdsm2_1',['RC_SUB_TYPE_SPEKTRUM_DSM2',['../common_8h.html#aaa55156948d1404db5bf58d3b40c7accaf729f58f8104806d118cba7edc4e5d0e',1,'common.h']]],
+  ['rc_5fsub_5ftype_5fspektrum_5fdsmx_2',['RC_SUB_TYPE_SPEKTRUM_DSMX',['../common_8h.html#aaa55156948d1404db5bf58d3b40c7accaa1adf23bd28feac4f2ed82e2e376ec3a',1,'common.h']]],
+  ['rc_5fsub_5ftype_5fspektrum_5fdsmx8_3',['RC_SUB_TYPE_SPEKTRUM_DSMX8',['../common_8h.html#aaa55156948d1404db5bf58d3b40c7acca58841b2af7939e55f8f7b2d8e2570827',1,'common.h']]],
+  ['rc_5ftype_5fcrsf_4',['RC_TYPE_CRSF',['../common_8h.html#a72eb63a0234f7525a3e97e75408a5819a3be63cbc4ced1c6277cceda98e0db299',1,'common.h']]],
+  ['rc_5ftype_5fenum_5fend_5',['RC_TYPE_ENUM_END',['../common_8h.html#a72eb63a0234f7525a3e97e75408a5819ac9d7e8f97fb1e5619b4da193f562a859',1,'common.h']]],
+  ['rc_5ftype_5fspektrum_6',['RC_TYPE_SPEKTRUM',['../common_8h.html#a72eb63a0234f7525a3e97e75408a5819ae1354585531eaacc65f3b8712cb4eb18',1,'common.h']]],
+  ['reboot_5fshutdown_5faction_5fenum_5fend_7',['REBOOT_SHUTDOWN_ACTION_ENUM_END',['../common_8h.html#a4e6b1929281225f0f644d393763208ecafaeef8d2d01ff65d6b3ac10df131c0d1',1,'common.h']]],
+  ['reboot_5fshutdown_5faction_5fnone_8',['REBOOT_SHUTDOWN_ACTION_NONE',['../common_8h.html#a4e6b1929281225f0f644d393763208eca3d209238c328ca4aa3520a2c14636c11',1,'common.h']]],
+  ['reboot_5fshutdown_5faction_5fpower_5fon_9',['REBOOT_SHUTDOWN_ACTION_POWER_ON',['../common_8h.html#a4e6b1929281225f0f644d393763208ecac2394bd6625a1bf28ce7edd7d9011a4d',1,'common.h']]],
+  ['reboot_5fshutdown_5faction_5freboot_10',['REBOOT_SHUTDOWN_ACTION_REBOOT',['../common_8h.html#a4e6b1929281225f0f644d393763208eca85ddd71b50e8454d317ca788693a7c81',1,'common.h']]],
+  ['reboot_5fshutdown_5faction_5freboot_5fto_5fbootloader_11',['REBOOT_SHUTDOWN_ACTION_REBOOT_TO_BOOTLOADER',['../common_8h.html#a4e6b1929281225f0f644d393763208ecab292db54014d94f3662791babeafb36f',1,'common.h']]],
+  ['reboot_5fshutdown_5faction_5fshutdown_12',['REBOOT_SHUTDOWN_ACTION_SHUTDOWN',['../common_8h.html#a4e6b1929281225f0f644d393763208ecaed4291b8d7257f90ead26bbd73e7d964',1,'common.h']]],
+  ['reboot_5fshutdown_5fconditions_5fenum_5fend_13',['REBOOT_SHUTDOWN_CONDITIONS_ENUM_END',['../common_8h.html#a0d6795ba426a582c54e309c61b7e2812a946d27c45b93f9f894692e107611a597',1,'common.h']]],
+  ['reboot_5fshutdown_5fconditions_5fforce_14',['REBOOT_SHUTDOWN_CONDITIONS_FORCE',['../common_8h.html#a0d6795ba426a582c54e309c61b7e2812a45dcf9adb0b003360ddecd422a1e6166',1,'common.h']]],
+  ['reboot_5fshutdown_5fconditions_5fsafety_5finterlocked_15',['REBOOT_SHUTDOWN_CONDITIONS_SAFETY_INTERLOCKED',['../common_8h.html#a0d6795ba426a582c54e309c61b7e2812a7ef6a99802e83c46c34ab090bbcb6a6d',1,'common.h']]],
+  ['rtk_5fbaseline_5fcoordinate_5fsystem_5fecef_16',['RTK_BASELINE_COORDINATE_SYSTEM_ECEF',['../common_8h.html#acf2a2b939bbff7ae2a83d0056dba7301aec2379cdc8d9bd0780b9e89b01fe9f01',1,'common.h']]],
+  ['rtk_5fbaseline_5fcoordinate_5fsystem_5fenum_5fend_17',['RTK_BASELINE_COORDINATE_SYSTEM_ENUM_END',['../common_8h.html#acf2a2b939bbff7ae2a83d0056dba7301adb9784da23f013e578ead00ad50518dc',1,'common.h']]],
+  ['rtk_5fbaseline_5fcoordinate_5fsystem_5fned_18',['RTK_BASELINE_COORDINATE_SYSTEM_NED',['../common_8h.html#acf2a2b939bbff7ae2a83d0056dba7301a34ac744c23309b297d534fb3218afe73',1,'common.h']]]
+];

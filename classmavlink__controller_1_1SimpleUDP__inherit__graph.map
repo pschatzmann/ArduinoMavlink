@@ -1,0 +1,4 @@
+<map id="SimpleUDP" name="SimpleUDP">
+<area shape="rect" id="node1" title="Extension of WiFiUDP that ensures MAVLink&#45;compatible Stream behavior." alt="" coords="5,79,100,104"/>
+<area shape="rect" id="node2" title=" " alt="" coords="13,5,92,31"/>
+</map>

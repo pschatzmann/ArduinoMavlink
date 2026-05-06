@@ -1,0 +1,10 @@
+<map id="src/standard/mavlink_msg_autopilot_version.h" name="src/standard/mavlink_msg_autopilot_version.h">
+<area shape="rect" id="node1" title=" " alt="" coords="222,5,411,45"/>
+<area shape="rect" id="node2" href="$standard_2standard_8h.html" title="MAVLink comm protocol generated from standard.xml." alt="" coords="229,93,404,119"/>
+<area shape="rect" id="node3" href="$common_8h.html" title="MAVLink comm protocol generated from common.xml." alt="" coords="131,167,305,192"/>
+<area shape="rect" id="node8" href="$standard_2mavlink_8h.html" title="MAVLink comm protocol built from standard.xml." alt="" coords="330,167,501,192"/>
+<area shape="rect" id="node4" href="$common_2mavlink_8h.html" title="MAVLink comm protocol built from common.xml." alt="" coords="34,240,205,265"/>
+<area shape="rect" id="node7" href="$common_2standard_8h.html" title="MAVLink comm protocol generated from standard.xml." alt="" coords="229,240,404,265"/>
+<area shape="rect" id="node5" href="$MavlinkController_8h.html" title=" " alt="" coords="5,313,233,339"/>
+<area shape="rect" id="node6" href="$Mavlink_8h.html" title=" " alt="" coords="65,387,174,412"/>
+</map>

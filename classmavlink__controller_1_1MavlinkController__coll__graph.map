@@ -1,0 +1,9 @@
+<map id="MavlinkController" name="MavlinkController">
+<area shape="rect" id="node1" title="A simple MAVLink drone controller for Arduino/ESP32." alt="" coords="136,357,275,383"/>
+<area shape="rect" id="node2" href="$classmavlink__controller_1_1MavlinkController.html" title="A simple MAVLink drone controller for Arduino/ESP32." alt="" coords="136,269,275,295"/>
+<area shape="rect" id="node3" href="$classmavlink__controller_1_1ParameterStore.html" title="Flexible parameter storage for MAVLink drone applications." alt="" coords="5,181,128,207"/>
+<area shape="rect" id="node4" href="$struct____mavlink__status.html" title=" " alt="" coords="420,181,556,207"/>
+<area shape="rect" id="node5" href="$struct____mavlink__signing.html" title=" " alt="" coords="617,269,759,295"/>
+<area shape="rect" id="node6" href="$struct____mavlink__signing__streams.html" title=" " alt="" coords="387,93,589,119"/>
+<area shape="rect" id="node7" href="$struct____mavlink__signing__streams_1_1____mavlink__signing__stream.html" title=" " alt="" coords="390,5,586,31"/>
+</map>
