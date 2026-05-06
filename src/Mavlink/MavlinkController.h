@@ -35,7 +35,6 @@ namespace mavlink_controller {
  *   1. Instantiate with a Stream and optional ParameterStore
  *   2. Call loop() regularly (e.g., in Arduino loop())
  *   3. Optionally set a message callback with setMessageCallback()
- *   4. Use setLog() to enable logging
  *
  * @note This class is designed for embedded use and avoids blocking operations.
  */

@@ -21,6 +21,9 @@
 #else
 namespace mavlink_controller {
 
+/// Log levels for MavlinkLogger
+enum MavlinkLogLevel { ERROR = 0, WARN = 1, INFO = 2, DEBUG = 3 };
+
 /**
  * @class MavlinkLoggerClass
  * @brief Simple logger with log levels and configurable Print output (default
@@ -28,12 +31,11 @@ namespace mavlink_controller {
  *
  * Usage:
  *   MavlinkLogger logger;
- *   logger.log(MavlinkLogger::INFO, "Hello %d", 42);
+ *   logger.log(MavlinkLogLevel::INFO, "Hello %d", 42);
  *   logger.setOutput(&myPrint);
  */
 class MavlinkLoggerClass {
  public:
-  enum Level { ERROR = 0, WARN = 1, INFO = 2, DEBUG = 3 };
 
   MavlinkLoggerClass() = default;
 
@@ -41,10 +43,10 @@ class MavlinkLoggerClass {
   void setOutput(Print* out) { output = out; }
 
   /// Set the minimum log level
-  void setLevel(Level lvl) { level = lvl; }
+  void setLevel(MavlinkLogLevel lvl) { level = lvl; }
 
   /// Initialize logger with log level and output (default: INFO, Serial)
-  bool begin(Level lvl = INFO, Print* out = &Serial) {
+  bool begin(MavlinkLogLevel lvl = INFO, Print* out = &Serial) {
     setLevel(lvl);
     setOutput(out);
     return output != nullptr;
@@ -90,7 +92,7 @@ class MavlinkLoggerClass {
   }
 
   /// Log a message with a specific log level (varargs, printf-style)
-  size_t log(Level lvl, const char* fmt, ...) {
+  size_t log(MavlinkLogLevel lvl, const char* fmt, ...) {
     va_list args;
     va_start(args, fmt);
     size_t res = log_va(lvl, fmt, args);
@@ -103,7 +105,7 @@ class MavlinkLoggerClass {
   Level level = INFO;
 
   // Helper for va_list logging
-  size_t log_va(Level lvl, const char* fmt, va_list args) {
+  size_t log_va(MavlinkLogLevel lvl, const char* fmt, va_list args) {
     if (lvl > level || !output) return 0;
     char buf[MAVLINK_MAX_LOG_SIZE];
     vsnprintf(buf, sizeof(buf), fmt, args);
