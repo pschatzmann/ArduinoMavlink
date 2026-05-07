@@ -5,6 +5,7 @@
  * WiFiUDP class.
  */
 #include "Mavlink.h"
+#include "Mavlink/SimpleUDP.h"
 #include "WiFi.h"
 
 const int port = 14550;

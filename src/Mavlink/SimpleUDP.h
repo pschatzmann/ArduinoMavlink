@@ -8,7 +8,8 @@ namespace mavlink_controller {
 
 /**
  * @class SimpleUDP
- * @brief Extension of WiFiUDP that ensures MAVLink-compatible Stream behavior.
+ * @brief Optional extension of WiFiUDP that ensures MAVLink-compatible Stream
+ * behavior.
  *
  * This class extends WiFiUDP to provide the expected Stream interface for
  * MAVLink and MavlinkController. It ensures that:

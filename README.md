@@ -53,6 +53,7 @@ You can easily define a full implementation of an airplane by adding a Servo lib
 ```C++
 #include "WiFi.h" 
 #include "Mavlink.h"
+#include "Mavlink/SimpleUDP.h"
 #include "ESP32Servo.h"
 
 const int port = 14550;
