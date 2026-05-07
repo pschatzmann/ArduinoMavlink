@@ -80,7 +80,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Extension of WiFiUDP that ensures MAVLink-compatible Stream behavior.  
+<p>Optional extension of WiFiUDP that ensures MAVLink-compatible Stream behavior.  
  <a href="classmavlink__controller_1_1SimpleUDP.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="SimpleUDP_8h_source.html">SimpleUDP.h</a>&gt;</code></p>
@@ -89,7 +89,7 @@ Inheritance diagram for SimpleUDP:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmavlink__controller_1_1SimpleUDP__inherit__graph.png" border="0" usemap="#aSimpleUDP_inherit__map" alt="Inheritance graph"/></div>
 <map name="aSimpleUDP_inherit__map" id="aSimpleUDP_inherit__map">
-<area shape="rect" title="Extension of WiFiUDP that ensures MAVLink&#45;compatible Stream behavior." alt="" coords="5,79,100,104"/>
+<area shape="rect" title="Optional extension of WiFiUDP that ensures MAVLink&#45;compatible Stream behavior." alt="" coords="5,79,100,104"/>
 <area shape="rect" title=" " alt="" coords="13,5,92,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -98,7 +98,7 @@ Collaboration diagram for SimpleUDP:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmavlink__controller_1_1SimpleUDP__coll__graph.png" border="0" usemap="#aSimpleUDP_coll__map" alt="Collaboration graph"/></div>
 <map name="aSimpleUDP_coll__map" id="aSimpleUDP_coll__map">
-<area shape="rect" title="Extension of WiFiUDP that ensures MAVLink&#45;compatible Stream behavior." alt="" coords="5,79,100,104"/>
+<area shape="rect" title="Optional extension of WiFiUDP that ensures MAVLink&#45;compatible Stream behavior." alt="" coords="5,79,100,104"/>
 <area shape="rect" title=" " alt="" coords="13,5,92,31"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -111,12 +111,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a183cb7a3c6dce3202f9a4c205bd09e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Extension of WiFiUDP that ensures MAVLink-compatible Stream behavior. </p>
+<div class="textblock"><p>Optional extension of WiFiUDP that ensures MAVLink-compatible Stream behavior. </p>
 <p>This class extends WiFiUDP to provide the expected Stream interface for MAVLink and <a class="el" href="classmavlink__controller_1_1MavlinkController.html" title="A simple MAVLink drone controller for Arduino/ESP32.">MavlinkController</a>. It ensures that:</p><ul>
 <li><a class="el" href="classmavlink__controller_1_1SimpleUDP.html#a692e2b18b3c2452e38e3f558ad87e9a5">available()</a> returns the size of the next UDP packet if the current one is consumed</li>
 <li><a class="el" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">write()</a> automatically wraps data in beginPacket()/endPacket() for each send</li>
 </ul>
-<p>Usage: Use <a class="el" href="classmavlink__controller_1_1SimpleUDP.html" title="Extension of WiFiUDP that ensures MAVLink-compatible Stream behavior.">SimpleUDP</a> as a drop-in replacement for WiFiUDP when working with MAVLink or <a class="el" href="classmavlink__controller_1_1MavlinkController.html" title="A simple MAVLink drone controller for Arduino/ESP32.">MavlinkController</a> to ensure reliable packet handling and transmission. </p>
+<p>Usage: Use <a class="el" href="classmavlink__controller_1_1SimpleUDP.html" title="Optional extension of WiFiUDP that ensures MAVLink-compatible Stream behavior.">SimpleUDP</a> as a drop-in replacement for WiFiUDP when working with MAVLink or <a class="el" href="classmavlink__controller_1_1MavlinkController.html" title="A simple MAVLink drone controller for Arduino/ESP32.">MavlinkController</a> to ensure reliable packet handling and transmission. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a692e2b18b3c2452e38e3f558ad87e9a5" name="a692e2b18b3c2452e38e3f558ad87e9a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a692e2b18b3c2452e38e3f558ad87e9a5">&#9670;&#160;</a></span>available()</h2>

@@ -86,49 +86,50 @@ $(function() {
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">/**</span></div>
 <div class="line"><span class="lineno">   10</span><span class="comment"> * @class SimpleUDP</span></div>
-<div class="line"><span class="lineno">   11</span><span class="comment"> * @brief Extension of WiFiUDP that ensures MAVLink-compatible Stream behavior.</span></div>
-<div class="line"><span class="lineno">   12</span><span class="comment"> *</span></div>
-<div class="line"><span class="lineno">   13</span><span class="comment"> * This class extends WiFiUDP to provide the expected Stream interface for</span></div>
-<div class="line"><span class="lineno">   14</span><span class="comment"> * MAVLink and MavlinkController. It ensures that:</span></div>
-<div class="line"><span class="lineno">   15</span><span class="comment"> * - available() returns the size of the next UDP packet if the current one is</span></div>
-<div class="line"><span class="lineno">   16</span><span class="comment"> * consumed</span></div>
-<div class="line"><span class="lineno">   17</span><span class="comment"> * - write() automatically wraps data in beginPacket()/endPacket() for each send</span></div>
-<div class="line"><span class="lineno">   18</span><span class="comment"> *</span></div>
-<div class="line"><span class="lineno">   19</span><span class="comment"> * Usage:</span></div>
-<div class="line"><span class="lineno">   20</span><span class="comment"> *   Use SimpleUDP as a drop-in replacement for WiFiUDP when working with</span></div>
-<div class="line"><span class="lineno">   21</span><span class="comment"> * MAVLink or MavlinkController to ensure reliable packet handling and</span></div>
-<div class="line"><span class="lineno">   22</span><span class="comment"> * transmission.</span></div>
-<div class="line"><span class="lineno">   23</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classmavlink__controller_1_1SimpleUDP.html">   24</a></span><span class="keyword">class</span> <a class="code hl_class" href="classmavlink__controller_1_1SimpleUDP.html">SimpleUDP</a> : <span class="keyword">public</span> <a class="code hl_class" href="classmavlink__controller_1_1SimpleUDP.html">WiFiUDP</a> {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="classmavlink__controller_1_1SimpleUDP.html#a692e2b18b3c2452e38e3f558ad87e9a5">   26</a></span>  <span class="keywordtype">int</span> <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a692e2b18b3c2452e38e3f558ad87e9a5">available</a>() <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a692e2b18b3c2452e38e3f558ad87e9a5">override</a> {</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">int</span> size = WiFiUDP::available();</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">if</span> (size == 0) {</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>      size = parsePacket();</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    MAV_DEBUG(<span class="stringliteral">&quot;SimpleUDP::available() = %d&quot;</span>, size);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordflow">return</span> size;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  }</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">   34</a></span>  <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">size_t</a> <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">write</a>(<span class="keyword">const</span> <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">uint8_t</a>* <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">buffer</a>, <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">size_t</a> <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">size</a>) <span class="keyword">override</span> {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    MAV_DEBUG(<span class="stringliteral">&quot;SimpleUDP::write(%d bytes)&quot;</span>, size);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">bool</span> sent = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    size_t written = 0;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">while</span> (!sent) {</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>      beginPacket(remoteIP(), remotePort());</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>      written = WiFiUDP::write(buffer, size);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>      sent = endPacket();</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>      <span class="keywordflow">if</span> (!sent) {</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        delay(20);  <span class="comment">// Small delay before retrying</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>      }</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">return</span> written;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  }</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}  <span class="comment">// namespace mavlink_controller</span></div>
-<div class="ttc" id="aclassmavlink__controller_1_1SimpleUDP_html"><div class="ttname"><a href="classmavlink__controller_1_1SimpleUDP.html">mavlink_controller::SimpleUDP</a></div><div class="ttdoc">Extension of WiFiUDP that ensures MAVLink-compatible Stream behavior.</div><div class="ttdef"><b>Definition:</b> SimpleUDP.h:24</div></div>
-<div class="ttc" id="aclassmavlink__controller_1_1SimpleUDP_html_a183cb7a3c6dce3202f9a4c205bd09e11"><div class="ttname"><a href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">mavlink_controller::SimpleUDP::write</a></div><div class="ttdeci">size_t write(const uint8_t *buffer, size_t size) override</div><div class="ttdef"><b>Definition:</b> SimpleUDP.h:34</div></div>
-<div class="ttc" id="aclassmavlink__controller_1_1SimpleUDP_html_a692e2b18b3c2452e38e3f558ad87e9a5"><div class="ttname"><a href="classmavlink__controller_1_1SimpleUDP.html#a692e2b18b3c2452e38e3f558ad87e9a5">mavlink_controller::SimpleUDP::available</a></div><div class="ttdeci">int available() override</div><div class="ttdef"><b>Definition:</b> SimpleUDP.h:26</div></div>
+<div class="line"><span class="lineno">   11</span><span class="comment"> * @brief Optional extension of WiFiUDP that ensures MAVLink-compatible Stream</span></div>
+<div class="line"><span class="lineno">   12</span><span class="comment"> * behavior.</span></div>
+<div class="line"><span class="lineno">   13</span><span class="comment"> *</span></div>
+<div class="line"><span class="lineno">   14</span><span class="comment"> * This class extends WiFiUDP to provide the expected Stream interface for</span></div>
+<div class="line"><span class="lineno">   15</span><span class="comment"> * MAVLink and MavlinkController. It ensures that:</span></div>
+<div class="line"><span class="lineno">   16</span><span class="comment"> * - available() returns the size of the next UDP packet if the current one is</span></div>
+<div class="line"><span class="lineno">   17</span><span class="comment"> * consumed</span></div>
+<div class="line"><span class="lineno">   18</span><span class="comment"> * - write() automatically wraps data in beginPacket()/endPacket() for each send</span></div>
+<div class="line"><span class="lineno">   19</span><span class="comment"> *</span></div>
+<div class="line"><span class="lineno">   20</span><span class="comment"> * Usage:</span></div>
+<div class="line"><span class="lineno">   21</span><span class="comment"> *   Use SimpleUDP as a drop-in replacement for WiFiUDP when working with</span></div>
+<div class="line"><span class="lineno">   22</span><span class="comment"> * MAVLink or MavlinkController to ensure reliable packet handling and</span></div>
+<div class="line"><span class="lineno">   23</span><span class="comment"> * transmission.</span></div>
+<div class="line"><span class="lineno">   24</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classmavlink__controller_1_1SimpleUDP.html">   25</a></span><span class="keyword">class</span> <a class="code hl_class" href="classmavlink__controller_1_1SimpleUDP.html">SimpleUDP</a> : <span class="keyword">public</span> <a class="code hl_class" href="classmavlink__controller_1_1SimpleUDP.html">WiFiUDP</a> {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="classmavlink__controller_1_1SimpleUDP.html#a692e2b18b3c2452e38e3f558ad87e9a5">   27</a></span>  <span class="keywordtype">int</span> <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a692e2b18b3c2452e38e3f558ad87e9a5">available</a>() <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a692e2b18b3c2452e38e3f558ad87e9a5">override</a> {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">int</span> size = WiFiUDP::available();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordflow">if</span> (size == 0) {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>      size = parsePacket();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    MAV_DEBUG(<span class="stringliteral">&quot;SimpleUDP::available() = %d&quot;</span>, size);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordflow">return</span> size;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  }</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">   35</a></span>  <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">size_t</a> <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">write</a>(<span class="keyword">const</span> <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">uint8_t</a>* <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">buffer</a>, <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">size_t</a> <a class="code hl_function" href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">size</a>) <span class="keyword">override</span> {</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    MAV_DEBUG(<span class="stringliteral">&quot;SimpleUDP::write(%d bytes)&quot;</span>, size);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">bool</span> sent = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    size_t written = 0;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">while</span> (!sent) {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>      beginPacket(remoteIP(), remotePort());</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>      written = WiFiUDP::write(buffer, size);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>      sent = endPacket();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>      <span class="keywordflow">if</span> (!sent) {</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        delay(20);  <span class="comment">// Small delay before retrying</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>      }</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">return</span> written;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  }</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>};</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>}  <span class="comment">// namespace mavlink_controller</span></div>
+<div class="ttc" id="aclassmavlink__controller_1_1SimpleUDP_html"><div class="ttname"><a href="classmavlink__controller_1_1SimpleUDP.html">mavlink_controller::SimpleUDP</a></div><div class="ttdoc">Optional extension of WiFiUDP that ensures MAVLink-compatible Stream behavior.</div><div class="ttdef"><b>Definition:</b> SimpleUDP.h:25</div></div>
+<div class="ttc" id="aclassmavlink__controller_1_1SimpleUDP_html_a183cb7a3c6dce3202f9a4c205bd09e11"><div class="ttname"><a href="classmavlink__controller_1_1SimpleUDP.html#a183cb7a3c6dce3202f9a4c205bd09e11">mavlink_controller::SimpleUDP::write</a></div><div class="ttdeci">size_t write(const uint8_t *buffer, size_t size) override</div><div class="ttdef"><b>Definition:</b> SimpleUDP.h:35</div></div>
+<div class="ttc" id="aclassmavlink__controller_1_1SimpleUDP_html_a692e2b18b3c2452e38e3f558ad87e9a5"><div class="ttname"><a href="classmavlink__controller_1_1SimpleUDP.html#a692e2b18b3c2452e38e3f558ad87e9a5">mavlink_controller::SimpleUDP::available</a></div><div class="ttdeci">int available() override</div><div class="ttdef"><b>Definition:</b> SimpleUDP.h:27</div></div>
 <div class="ttc" id="anamespacemavlink__controller_html"><div class="ttname"><a href="namespacemavlink__controller.html">mavlink_controller</a></div><div class="ttdef"><b>Definition:</b> MavlinkController.h:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
