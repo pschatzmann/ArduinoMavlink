@@ -3683,7 +3683,7 @@ var searchData=
   ['mavlink_5ftypes_2eh_3680',['mavlink_types.h',['../mavlink__types_8h.html',1,'']]],
   ['mavlink_5fuavcan_5fnode_5finfo_5ft_3681',['mavlink_uavcan_node_info_t',['../mavlink__msg__uavcan__node__info_8h.html#a24b0ddf2d4ca850a422e17404d248e9a',1,'mavlink_msg_uavcan_node_info.h']]],
   ['mavlink_5fuavcan_5fnode_5fstatus_5ft_3682',['mavlink_uavcan_node_status_t',['../mavlink__msg__uavcan__node__status_8h.html#ab630aacf1a5c0ca4ad82eba356b03f29',1,'mavlink_msg_uavcan_node_status.h']]],
-  ['mavlink_5fuse_5fesp_5flogger_3683',['MAVLINK_USE_ESP_LOGGER',['../MavlinkConfig_8h.html#a8794630786a7fe5532e70add0d8d0b5b',1,'MAVLINK_USE_ESP_LOGGER():&#160;MavlinkConfig.h'],['../MavlinkLogger_8h.html#a8794630786a7fe5532e70add0d8d0b5b',1,'MAVLINK_USE_ESP_LOGGER():&#160;MavlinkLogger.h']]],
+  ['mavlink_5fuse_5fesp_5flogger_3683',['MAVLINK_USE_ESP_LOGGER',['../MavlinkLogger_8h.html#a8794630786a7fe5532e70add0d8d0b5b',1,'MAVLINK_USE_ESP_LOGGER():&#160;MavlinkLogger.h'],['../MavlinkConfig_8h.html#a8794630786a7fe5532e70add0d8d0b5b',1,'MAVLINK_USE_ESP_LOGGER():&#160;MavlinkConfig.h']]],
   ['mavlink_5fuse_5fsigning_3684',['MAVLINK_USE_SIGNING',['../MavlinkConfig_8h.html#a39b585a9cb37ce8bc9a72531ac885b19',1,'MavlinkConfig.h']]],
   ['mavlink_5futm_5fglobal_5fposition_5ft_3685',['mavlink_utm_global_position_t',['../mavlink__msg__utm__global__position_8h.html#ab82da8ebd23520dd02fe3975d92fd9f3',1,'mavlink_msg_utm_global_position.h']]],
   ['mavlink_5fv2_5fextension_5ft_3686',['mavlink_v2_extension_t',['../mavlink__msg__v2__extension_8h.html#a006a51436dee23155999dcdc17cad111',1,'mavlink_msg_v2_extension.h']]],

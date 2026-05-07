@@ -1,9 +1,9 @@
-<map id="src/Mavlink/MavlinkConfig.h" name="src/Mavlink/MavlinkConfig.h">
-<area shape="rect" id="node1" title=" " alt="" coords="26,5,232,31"/>
-<area shape="rect" id="node2" href="$MavlinkController_8h.html" title=" " alt="" coords="62,233,290,258"/>
-<area shape="rect" id="node4" href="$MavlinkLogger_8h.html" title=" " alt="" coords="261,79,469,104"/>
-<area shape="rect" id="node7" href="$MavlinkSystem_8h.html" title=" " alt="" coords="22,79,236,104"/>
-<area shape="rect" id="node3" href="$Mavlink_8h.html" title=" " alt="" coords="273,313,382,339"/>
-<area shape="rect" id="node5" href="$ParameterMapStore_8h.html" title=" " alt="" coords="370,225,566,265"/>
-<area shape="rect" id="node6" href="$ParameterStore_8h.html" title=" " alt="" coords="218,152,432,177"/>
+<map id="src/MavlinkConfig.h" name="src/MavlinkConfig.h">
+<area shape="rect" id="node1" title=" " alt="" coords="127,5,277,31"/>
+<area shape="rect" id="node2" href="$Mavlink_8h.html" title=" " alt="" coords="341,313,450,339"/>
+<area shape="rect" id="node3" href="$MavlinkController_8h.html" title=" " alt="" coords="205,233,433,258"/>
+<area shape="rect" id="node4" href="$MavlinkLogger_8h.html" title=" " alt="" coords="341,79,549,104"/>
+<area shape="rect" id="node7" href="$MavlinkSystem_8h.html" title=" " alt="" coords="23,79,237,104"/>
+<area shape="rect" id="node5" href="$ParameterMapStore_8h.html" title=" " alt="" coords="513,225,709,265"/>
+<area shape="rect" id="node6" href="$ParameterStore_8h.html" title=" " alt="" coords="364,152,579,177"/>
 </map>
