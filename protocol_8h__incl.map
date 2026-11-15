@@ -1,13 +1,13 @@
 <map id="src/common/protocol.h" name="src/common/protocol.h">
-<area shape="rect" id="node1" title=" " alt="" coords="81,5,251,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,152,76,177"/>
-<area shape="rect" id="node3" href="$mavlink__types_8h.html" title=" " alt="" coords="101,152,231,177"/>
-<area shape="rect" id="node6" href="$mavlink__helpers_8h.html" title=" " alt="" coords="217,79,360,104"/>
-<area shape="rect" id="node4" title=" " alt="" coords="125,225,207,251"/>
-<area shape="rect" id="node5" title=" " alt="" coords="380,225,451,251"/>
-<area shape="rect" id="node7" href="$checksum_8h.html" title=" " alt="" coords="512,152,612,177"/>
-<area shape="rect" id="node8" href="$mavlink__conversions_8h.html" title=" " alt="" coords="636,152,808,177"/>
-<area shape="rect" id="node10" title=" " alt="" coords="255,152,322,177"/>
-<area shape="rect" id="node11" href="$mavlink__sha256_8h.html" title=" " alt="" coords="346,152,487,177"/>
-<area shape="rect" id="node9" title=" " alt="" coords="688,225,756,251"/>
+<area shape="rect" id="node1" title=" " alt="" coords="79,5,250,33"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,157,76,184"/>
+<area shape="rect" id="node3" href="$mavlink__types_8h.html" title=" " alt="" coords="100,157,229,184"/>
+<area shape="rect" id="node6" href="$mavlink__helpers_8h.html" title=" " alt="" coords="215,81,356,109"/>
+<area shape="rect" id="node4" title=" " alt="" coords="124,232,205,260"/>
+<area shape="rect" id="node5" title=" " alt="" coords="376,232,446,260"/>
+<area shape="rect" id="node7" href="$checksum_8h.html" title=" " alt="" coords="507,157,606,184"/>
+<area shape="rect" id="node8" href="$mavlink__conversions_8h.html" title=" " alt="" coords="631,157,802,184"/>
+<area shape="rect" id="node10" title=" " alt="" coords="253,157,318,184"/>
+<area shape="rect" id="node11" href="$mavlink__sha256_8h.html" title=" " alt="" coords="342,157,483,184"/>
+<area shape="rect" id="node9" title=" " alt="" coords="683,232,750,260"/>
 </map>
