@@ -102,7 +102,7 @@ class MavlinkLoggerClass {
 
  private:
   Print* output = &Serial;
-  Level level = INFO;
+  MavlinkLogLevel level = INFO;
 
   // Helper for va_list logging
   size_t log_va(MavlinkLogLevel lvl, const char* fmt, va_list args) {
